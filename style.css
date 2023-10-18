@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=sap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;900&family=Pixelify+Sans&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Concert+One & family= Gabarito:wght@400;900 & family= Pixelify+Sans & family= Rubik:wght@500 & mostrar=intercambiar');
+.navbar {
+    position: relative;
+    background: floralwhite;
+}
+
+#navlist {
+
+   list-style: none;
+   display: flex;
+   padding: 0;
+   margin: 0;
+   background: rgb(0, 0, 0);
+}
+
+#navlist li {
+    font-family: 'Rubik', sans-serif;
+  flex: auto;
+  text-align: center;
+  padding: 1.6em;
+  font-size: 20px;
+  color: rgb(207, 22, 22);
+}
+
+#navlist li:hover {
+ background: rgb(110, 110, 110);
+}
+
+
+#navlist a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.clasefooter{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.contenedor{
+    text-align: center;
+}
+
+.fila{
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+}
+
+.fondodecard{
+    background-color: #e4e3e3;
+}
+
+.columnas{
+    width: 32.5%;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.cardtv{
+    background-color: rgb(88, 87, 87);
+}
+
+.cardcel{
+    background-color: rgb(88, 87, 87);
+}
+
+.cardaudif{
+    background-color: rgb(88, 87, 87);
+}
+
+.titulocard{
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.imagenescentroindex{
+    width: 350px;
+    height: 260px;
+}
+
+.vermore{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 25px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+
+.vermore a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.contactarbutton{
+    background-color: #9da2a3;
+    border-radius: 80px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contactarbutton:hover{
+    background-color: #9da2a3;
+    font-size: 30px;
+}
+
+.contenedor h2{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.ultimafila{
+    margin-bottom: 12px;
+}
+
+.fondodecontra{
+    background-color: #667066;
+    
+}
+.imagenCE{
+    width: 35px;
+    height: 40px;
+}
